@@ -1,0 +1,51 @@
+﻿using UnityEngine;
+using System.Collections;
+/** 
+ *Copyright(C) 2015 by #COMPANY# 
+ *All rights reserved. 
+ *FileName:     #SCRIPTFULLNAME# 
+ *Author:       #AUTHOR# 
+ *Version:      #VERSION# 
+ *UnityVersion：#UNITYVERSION# 
+ *Date:         #DATE# 
+ *Description:    
+ *History: 
+*/
+
+public class NewBehaviourScript : MonoBehaviour {
+
+	/// <summary> 
+	/// 与构造函数同步调用
+	/// <summary>
+	void Awake()
+	{
+	}
+
+	/// <summary> 
+	/// 对象初始化 
+	/// <summary>  
+	void Start () {
+	
+	}
+	
+	/// <summary>  
+	/// 每一帧渲染之前调用
+	/// <summary>  
+	void Update () {
+	
+	}
+	/// <summary>  
+	/// 固定间隔更新调用
+	/// <summary>
+	void FixedUpdate()
+	{
+
+	} 
+	/// <summary>  
+	/// 每一帧渲染之后调用
+	/// <summary>
+	void LateUpdate()
+	{
+
+	} 
+}
